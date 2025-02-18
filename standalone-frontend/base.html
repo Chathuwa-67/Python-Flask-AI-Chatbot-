@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <link rel="stylesheet" href="style.css" />
+
+  <head>
+    <meta charset="UTF-8" />
+    <title>Chatbot</title>
+  </head>
+  <body
+    style="
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f9;
+      color: #333;
+      padding: 20px;
+    "
+  >
+    <div
+      style="
+        max-width: 900px;
+        margin: 0 auto;
+        background-color: white;
+        padding: 20px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        border-radius: 8px;
+      "
+    >
+      <h1 style="color: #2d3e50; text-align: center">Chatbot Overview</h1>
+      <p style="line-height: 1.6">
+        This <span style="color: #cc0000; font-weight: bold">chatbot</span> is
+        designed to be highly adaptable and can be trained to meet specific
+        requirements. It allows for seamless integration into any website,
+        enabling personalized interactions based on the needs of the user.
+      </p>
+      <p style="line-height: 1.6">
+        By leveraging
+        <span style="color: #cc0022; font-weight: bold"
+          >machine learning techniques</span
+        >, the chatbot continuously improves its responses and capabilities,
+        ensuring that it can address a wide range of queries efficiently.
+        Whether it's for <strong>customer support</strong>, information
+        retrieval, or other specialized functions, the chatbot can be customized
+        to suit your website’s purpose.
+      </p>
+      <p style="line-height: 1.6">
+        The <strong>training process</strong> involves feeding the bot with
+        relevant data, which enhances its understanding and accuracy in
+        providing context-aware responses.
+      </p>
+      <p style="color: #555; font-style: italic">
+        Once trained, it can be easily embedded into your website to interact
+        with visitors in a professional and intuitive manner.
+      </p>
+    </div>
+    <div class="container">
+      <div class="chatbox">
+        <div class="chatbox__support">
+          <div class="chatbox__header">
+            <div class="chatbox__image--header">
+              <img
+                src="https://img.icons8.com/color/48/000000/circled-user-male-skin-type-5--v1.png"
+                alt="image"
+              />
+            </div>
+            <div class="chatbox__content--header">
+              <h4 class="chatbox__heading--header">Chat support</h4>
+              <p class="chatbox__description--header">
+                Hi. My name is Chathuranga. How can I help you?
+              </p>
+            </div>
+          </div>
+          <div class="chatbox__messages">
+            <div></div>
+          </div>
+          <div class="chatbox__footer">
+            <input type="text" placeholder="Write a message..." />
+            <button class="chatbox__send--footer send__button">Send</button>
+          </div>
+        </div>
+        <div class="chatbox__button">
+          <button><img src="./images/chatbox-icon.svg" /></button>
+        </div>
+      </div>
+    </div>
+
+    <script src="./app.js"></script>
+  </body>
+</html>
